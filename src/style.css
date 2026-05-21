@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(247, 247, 248);
+}
+
+nav{
+    background-color: red;
+    border: 2px white dotted;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+nav > div > button{
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px darkred solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.home, .menu, .about{
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.on{
+    display: flex;
+}
+
+.off{
+    display: none;
+}
+
+.bubble{
+    display: flex;
+    padding: 20px;
+    font-size: 2rem;
+    border: solid black 2px;
+    border-radius: 30px;
+    background-color: lightcoral;
+}
+
+.bOne{
+    color: white;
+    width: 500px;
+    text-align: center;
+}
+
+.reviews{
+    display: flex;
+    gap: 50px;
+}
